@@ -1,0 +1,32 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  background-color: #a04668;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+
+  list-style: none;
+}
+
+.item {
+  margin: 0 1em;
+  color: white;
+}
+
+.item :hover {
+  color: #0c1713;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.goPin {
+  margin-right: 0.5rem;
+}

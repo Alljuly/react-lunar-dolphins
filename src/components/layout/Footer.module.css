@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  background-color: #c6b9cd;
+
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.item {
+  margin-inline: 1em;
+}
+
+.iconFooter {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.iconFooter:hover {
+  filter: none;
+  color: #f7d1cd;
+}
+
+.currentDate {
+  font-size: 0.8rem;
+  color: white;
+
+  padding-bottom: 0.5rem;
+  margin-inline: 1rem;
+}
