@@ -1,0 +1,31 @@
+{
+  "project": [
+    {
+      "name": "Alice",
+      "budget": "1000000000000000",
+      "description": "Tenha sua Alice",
+      "typeId": "2",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Trabalho"
+    },
+    {
+      "id": 2,
+      "name": "Meta Pessoal"
+    },
+    {
+      "id": 3,
+      "name": "Lembrete"
+    },
+    {
+      "id": 4,
+      "name": "Desenvolvimento"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import Contact from "./components/pages/Contact";
 
 import NavBar from "./components/layout/NavBar";
 import Footer from "./components/layout/Footer";
+
 import Container from "./components/layout/Container";
 import NewPlan from "./components/pages/NewPlan";
 

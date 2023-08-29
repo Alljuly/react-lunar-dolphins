@@ -1,12 +1,21 @@
 .container {
-  width: 1200px;
   display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: min-content;
+
+  margin: 0 auto;
 
   justify-content: space-between;
-  margin: 0 auto;
+
   flex-wrap: wrap;
 }
 
 .min-height {
   min-height: 75%;
+}
+
+.position {
+  position: relative;
+  margin-top: 1rem;
 }
