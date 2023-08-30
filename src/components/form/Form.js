@@ -27,7 +27,6 @@ function Form({ handleSubmit, plannerData }) {
 
   const submit = (e) => {
     e.preventDefault();
-    console.log("dados:", plann);
     handleSubmit(plann);
   };
 
@@ -61,7 +60,6 @@ function Form({ handleSubmit, plannerData }) {
           placeholder="Informe o nome do seu projeto"
           handleOnChange={handleChange}
           value={plann.name ? plann.name : ""}
-          required
         />
       </div>
       <div className={style.formField}>
@@ -72,7 +70,6 @@ function Form({ handleSubmit, plannerData }) {
           placeholder="Informe o orçamento caso seja necessário"
           handleOnChange={handleChange}
           value={plann.budget ? plann.budget : ""}
-          required
         />
       </div>
       <div className={style.formField}>
@@ -92,6 +89,7 @@ function Form({ handleSubmit, plannerData }) {
           value={
             selectedCategory?.id ?? (plann.category ? plann.category?.id : " ")
           }
+          required
         />
       </div>
       <div className={`${style.formField}${style.dateType}`}>
@@ -114,7 +112,7 @@ function Form({ handleSubmit, plannerData }) {
           placeholder="Informe o orçamento caso seja necessário"
         /> */}
       </div>
-      <SubmitButton />
+      <SubmitButton text="próximo" />
     </form>
   );
 }

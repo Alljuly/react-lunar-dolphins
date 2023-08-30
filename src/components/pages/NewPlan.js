@@ -19,7 +19,7 @@ function NewPlan() {
     })
       .then((resp) => resp.json)
       .then((data) => {
-        navigate("/company");
+        navigate("/planners");
       });
   }
   return (

@@ -1,0 +1,21 @@
+.searchBar {
+  display: flex;
+
+  justify-content: left;
+
+  background-color: #eee8ec;
+
+  margin-bottom: 0.5em;
+  padding: 0.8rem;
+  width: 100%;
+
+  border-radius: 8px;
+}
+
+input {
+  min-width: 40%;
+  padding: 0.3em;
+  border: none;
+
+  border-radius: 8px;
+}

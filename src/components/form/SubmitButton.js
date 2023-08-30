@@ -1,7 +1,9 @@
-function SubmitButton({ e }) {
+function SubmitButton({ to, text }) {
   return (
     <>
-      <button type="submit">Proximo</button>
+      <button to={to} type="submit">
+        {text}
+      </button>
     </>
   );
 }

@@ -29,10 +29,10 @@ function NavBar() {
               <Link to="/contact">Contact</Link>
             </li>
             <li className={styles.item}>
-              <Link to="/">Projects</Link>
+              <Link to="/planners">Projects</Link>
             </li>
             <li className={styles.item}>
-              <Link to="/NewPlan">
+              <Link to="/newPlan">
                 <GoPin className={styles.goPin} />
                 New Plan
               </Link>
