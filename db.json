@@ -35,6 +35,15 @@
       "cost": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "name": "Emo",
+      "budget": "1615184514440000000000000000000",
+      "description": "Fazer o café do dit",
+      "typeId": "3",
+      "cost": 0,
+      "services": [],
+      "id": 5
     }
   ],
   "category": [

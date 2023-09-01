@@ -112,7 +112,7 @@ function Form({ handleSubmit, plannerData }) {
           placeholder="Informe o orçamento caso seja necessário"
         /> */}
       </div>
-      <SubmitButton text="próximo" />
+      <SubmitButton text="próximo" type="submit" />
     </form>
   );
 }

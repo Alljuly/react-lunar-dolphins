@@ -3,6 +3,7 @@ import Home from "./components/pages/Home";
 import Company from "./components/pages/Company";
 import Contact from "./components/pages/Contact";
 import Planner from "./components/pages/Planners";
+import Details from "./components/pages/Details";
 
 import NavBar from "./components/layout/NavBar";
 import Footer from "./components/layout/Footer";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/newPlan" element={<NewPlan />} />
           <Route path="/company" element={<Company />} />
           <Route path="/planners" element={<Planner />} />
+          <Route path="/details" element={<Details />} />
         </Routes>
       </Container>
       <Footer />

@@ -5,9 +5,11 @@ import styles from "./Planners.module.css";
 import Card from "../cards/Card";
 import SideBar from "../cards/SideBar";
 import Search from "../cards/Search";
+import { useNavigate } from "react-router-dom";
 
 function Planner() {
   const [planner, setPlanner] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("http://localhost:5000/project", {
@@ -22,6 +24,11 @@ function Planner() {
       });
   }, []);
 
+  function handleClick(uuid) {
+    console.log("id: ", uuid);
+    navigate("/details");
+  }
+
   return (
     <main className={styles.contentPage}>
       <div className={styles.content}>
@@ -30,10 +37,12 @@ function Planner() {
           <Search />
           {planner.map((p) => (
             <Card
+              key={p.id}
               name={p.name}
               date="28-08-2023"
-              category={p.typeId}
               typeId={p.typeId}
+              uuid={p.id}
+              handleClick={handleClick}
             />
           ))}
         </div>

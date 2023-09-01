@@ -1,7 +1,7 @@
-function SubmitButton({ to, text }) {
+function SubmitButton({ handleOnClick, text, type }) {
   return (
     <>
-      <button to={to} type="submit">
+      <button onClick={handleOnClick} type={type}>
         {text}
       </button>
     </>
