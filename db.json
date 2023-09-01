@@ -19,9 +19,9 @@
       "id": 2
     },
     {
-      "name": "Teste ",
+      "name": "Lud ",
       "budget": "152365",
-      "description": "Vendo se está funcionando",
+      "description": "Ser a lud",
       "typeId": "2",
       "cost": 0,
       "services": [],
@@ -44,6 +44,11 @@
       "cost": 0,
       "services": [],
       "id": 5
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 6
     }
   ],
   "category": [

@@ -1,14 +1,10 @@
 // import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import SubmitButton from "../form/SubmitButton";
 import styles from "./Card.module.css";
 
-function Card({ name, date, typeId, handleClick, uuid }) {
-  //const navigate = useNavigate()
-
-  function handleDetails(e) {
-    handleClick(uuid);
-  }
-
+function Card({ name, date, typeId, uuid }) {
   return (
     <div className={styles.cardContent}>
       <div className={styles.rows}>
@@ -19,11 +15,10 @@ function Card({ name, date, typeId, handleClick, uuid }) {
         </div>
       </div>
       <div>
-        <SubmitButton
-          handleOnClick={handleDetails}
-          text="ver detalhes"
-          type="button"
-        />
+        <Link to={`/details/${uuid}`}>
+          <SubmitButton text="ver detalhes" type="button" />
+        </Link>
+
         <p>{date}</p>
       </div>
     </div>
