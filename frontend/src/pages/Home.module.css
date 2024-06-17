@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+
+	width: 100vw;
+}
+
+.lunar_title {
+	font-family: "KyivType Sans";
+	color: #c6a34a;
+}
+
+.section__first {
+	background-image: url("../img/bg-home.svg");
+	display: flex;
+	flex-direction: column;
+	font-family: "Nixie One";
+	width: 100vw;
+	min-height: i;
+}
+
+.lunar_dolphins {
+	display: flex;
+	flex-direction: row;
+}
+.homePage {
+	display: flex;
+	width: 100%;
+	min-width: 400px;
+
+	flex-wrap: wrap;
+
+	margin: auto;
+	justify-content: space-evenly;
+}
+
+.contentText {
+	margin: 2rem;
+}
+
+.welcomeText {
+	display: flex;
+	justify-content: space-evenly;
+	justify-items: center;
+	flex-direction: column;
+	min-width: 100px;
+
+	margin: 1rem 3rem;
+}
+
+.welcomeText > p {
+	margin-top: 0.5rem;
+}
+
+.spanTitle:hover {
+	color: #ff6b5b;
+	cursor: pointer;
+}
+
+.planningImg {
+	justify-content: center;
+	position: relative;
+	max-height: 60vh;
+	min-height: 100px;
+}
+
