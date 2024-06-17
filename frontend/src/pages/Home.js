@@ -1,5 +1,4 @@
 import Space from "../img/undraw_to_the_moon_re_q21i.svg";
-//import Stars from "../img/undraw_stars_re_6je7.svg";
 import LunarTitle from "../img/lunar_dolphins.svg";
 
 import styles from "./Home.module.css";
