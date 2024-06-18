@@ -1,37 +1,30 @@
 .content {
 	background-color: #ebf4f9;
 	overflow: hidden;
-	width: 100%;
 	color: #6c4f03;
 }
 
 .section__first {
 	display: flex;
 	height: 100vh;
-	width: 100vw;
+	align-items: center;
+	justify-content: flex-end;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url("../img/bg-home.svg");
+	background-image: url("../../img/bg_section_home1.svg");
 }
 
-.content_svg {
+.section__second {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.lunar_title {
-	display: flex;
-	flex-direction: column;
-	margin: 4rem 0 0 -6rem;
-	max-height: 60vh;
-	font-size: 26px;
-}
-.lunar_title > p {
-	color: #6c4f03;
-	text-shadow: 0px 3px 2px rgba(255, 255, 255, 0.25);
-	font-size: 32px;
+	align-items: center;
+	max-width: 100vw;
+	min-height: 1012px;
+	justify-content: flex-end;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../../img/bg_section_home2.svg");
 }
 
 .main_text {
@@ -44,8 +37,8 @@
 
 .get_start {
 	display: flex;
-	width: 320px;
-	height: 82px;
+	width: 25%;
+	height: 10%;
 	margin: 5rem;
 	justify-content: center;
 	justify-self: right;
